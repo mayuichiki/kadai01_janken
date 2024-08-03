@@ -1,0 +1,81 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: bottom;
+    background: transparent
+}
+
+#gubtn:hover {
+    opacity: 0.6;
+}
+#chobtn:hover {
+    opacity: 0.6;
+}
+#parbtn:hover {
+    opacity: 0.6;
+}
+
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+main{
+    border-bottom:1px solid #ccc;
+}
+.choice{
+    font-family: 'Yu Mincho Demibold';
+    text-align:center;
+    margin-top: 30px;
+}
+.result{
+    font-family: 'Yu Mincho Demibold';
+    text-align:center;
+    margin-top: 30px;
+}
+
+.pcchoice{
+    text-align:center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #fff;
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid #fff;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    list-style-type:none;
+    border: 1px solid #fff;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+li:hover{
+    background: #fff;
+    color:#fff;
+}
